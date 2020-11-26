@@ -1,0 +1,32 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+
+
+
+int main(int argc, char* argv[]){
+
+    setlocale(0, "rus");
+
+    string name, sname ;
+    
+    int age;
+
+    cout << "Name:";
+    cin >> name;
+    cout << "Surname:";
+    cin >> sname;
+
+    cout << "Age:";
+    cin >> age;
+
+    
+    
+    
+    
+
+    system("pause");
+    return 0;
+}
